@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "jobTitle": "Frontend Developer",
+    "companyName": "Amazon",
+    "city": "Seattle",
+    "skills": ["React", "JavaScript", "HTML", "CSS"],
+    "jobType": "Full-Time",
+    "jobDescription": "As a Frontend Developer at Amazon, you will work on developing and maintaining the frontend of various web applications using React, JavaScript, HTML, and CSS."
+  },
+  {
+    "id": 2,
+    "jobTitle": "Backend Developer",
+    "companyName": "Google",
+    "city": "Mountain View",
+    "skills": ["Java", "Python", "SQL"],
+    "jobType": "Full-Time",
+    "jobDescription": "As a Backend Developer at Google, you will work on developing and maintaining the backend of various web applications using Java, Python, and SQL."
+  },
+  {
+    "id": 3,
+    "jobTitle": "Data Engineer",
+    "companyName": "Facebook",
+    "city": "Menlo Park",
+    "skills": ["Python", "SQL", "Hadoop"],
+    "jobType": "Full-Time",
+    "jobDescription": "As a Data Engineer at Facebook, you will work on designing and implementing data pipelines using Python, SQL, and Hadoop."
+  },
+  {
+    "id": 4,
+    "jobTitle": "DevOps Engineer",
+    "companyName": "Microsoft",
+    "city": "Redmond",
+    "skills": ["Linux", "AWS", "Ansible"],
+    "jobType": "Full-Time",
+    "jobDescription": "As a DevOps Engineer at Microsoft, you will work on implementing and maintaining continuous integration and deployment pipelines using Linux, AWS, and Ansible."
+  },
+  {
+    "id": 5,
+    "jobTitle": "Cloud Architect",
+    "companyName": "IBM",
+    "city": "Armonk",
+    "skills": ["AWS", "Azure", "Google Cloud"],
+    "jobType": "Full-Time",
+    "jobDescription": "As a Cloud Architect at IBM, you will work on designing and implementing cloud-based solutions using AWS, Azure, and Google Cloud."
+  },
+  {
+    "id": 6,
+    "jobTitle": "Machine Learning Engineer",
+    "companyName": "Apple",
+    "city": "Cupertino",
+    "skills": ["Python", "TensorFlow", "PyTorch"],
+    "jobType": "Full-Time",
+    "jobDescription": "As a Machine Learning Engineer at Apple, you will work on developing and optimizing machine learning models using Python, TensorFlow, and PyTorch."
+  },
+  {
+    "id": 7,
+    "jobTitle": "Cybersecurity Analyst",
+    "companyName": "Cisco",
+    "city": "San Jose",
+    "skills": ["Network Security", "Penetration Testing", "SIEM"],
+    "jobType": "Full-Time",
+    "jobDescription": "As a Cybersecurity Analyst at Cisco, you will work on monitoring and securing computer networks using network security tools, penetration testing, and SIEM solutions."
+  },
+  {
+    "id": 8,
+    "jobTitle": "Mobile Application Developer",
+    "companyName": "Netflix",
+    "city": "Los Gatos",
+    "skills": ["Java", "Kotlin", "Swift"],
+    "jobType": "Full-Time",
+    "jobDescription": "As a Mobile Application Developer at Netflix, you will work on developing and maintaining mobile applications using Java, Kotlin, and Swift programming languages."
+  },
+  {
+    "id": 9,
+    "jobTitle": "Database Administrator",
+    "companyName": "Oracle",
+    "city": "Redwood City",
+    "skills": ["SQL", "Oracle Database", "NoSQL"],
+    "jobType": "Full-Time",
+    "jobDescription": "As a Database Administrator at Oracle, you will work on designing and maintaining databases using SQL, Oracle Database, and NoSQL solutions."
+  },
+  {
+    "id": 10,
+    "jobTitle": "Software Architect",
+    "companyName": "Intel",
+    "city": "Santa Clara",
+    "skills": ["Java", "C++", "Design Patterns"],
+    "jobType": "Full-Time",
+    "jobDescription": "As a Software Architect at Intel, you will work on designing and developing software architecture using Java, C++, and Design Patterns."
+  },
+  {
+    "id": 11,
+    "jobTitle": "UI/UX Designer",
+    "companyName": "Adobe",
+    "city": "San Francisco",
+    "skills": ["Adobe Creative Suite", "Sketch", "InVision"],
+    "jobType": "Full-Time",
+    "jobDescription": "As a UI/UX Designer at Adobe, you will work on designing and prototyping user interfaces and experiences using Adobe Creative Suite, Sketch, and InVision."
+  },
+  {
+    "id": 12,
+    "jobTitle": "Quality Assurance Engineer",
+    "companyName": "Qualcomm",
+    "city": "San Diego",
+    "skills": ["Java", "Python", "Selenium"],
+    "jobType": "Full-Time",
+    "jobDescription": "As a Quality Assurance Engineer at Qualcomm, you will work on testing and ensuring the quality of software products using Java, Python, and Selenium."
+  },
+  {
+    "id": 13,
+    "jobTitle": "Network Engineer",
+    "companyName": "Juniper Networks",
+    "city": "Sunnyvale",
+    "skills": ["Routing Protocols", "Network Security", "TCP/IP"],
+    "jobType": "Full-Time",
+    "jobDescription": "As a Network Engineer at Juniper Networks, you will work on designing and maintaining computer networks using routing protocols, network security, and TCP/IP."
+  },
+  {
+    "id": 14,
+    "jobTitle": "Full-Stack Developer",
+    "companyName": "Salesforce",
+    "city": "San Francisco",
+    "skills": ["JavaScript", "Java", "Salesforce"],
+    "jobType": "Full-Time",
+    "jobDescription": "As a Full-Stack Developer at Salesforce, you will work on developing and maintaining both the frontend and backend of web applications using JavaScript, Java, and Salesforce."
+  },
+  {
+    "id": 15,
+    "jobTitle": "Embedded Systems Engineer",
+    "companyName": "NVIDIA",
+    "city": "Santa Clara",
+    "skills": ["C++", "Embedded Systems", "Linux"],
+    "jobType": "Full-Time",
+    "jobDescription": "As an Embedded Systems Engineer at NVIDIA, you will work on developing and optimizing software for embedded systems using C++, Linux, and other programming languages."
+  },
+  {
+    "id": 16,
+    "jobTitle": "Artificial Intelligence Researcher",
+    "companyName": "OpenAI",
+    "city": "San Francisco",
+    "skills": ["Python", "Machine Learning", "Deep Learning"],
+    "jobType": "Full-Time",
+    "jobDescription": "As an Artificial Intelligence Researcher at OpenAI, you will work on developing and optimizing machine learning and deep learning models using Python and other programming languages."
+  },
+  {
+    "id": 17,
+    "jobTitle": "Product Manager",
+    "companyName": "Uber",
+    "city": "San Francisco",
+    "skills": ["Agile", "Product Development", "Market Research"],
+    "jobType": "Full-Time",
+    "jobDescription": "As a Product Manager at Uber, you will work on leading the development of new products and features by conducting market research and using agile product development methodologies."
+  },
+  {
+    "id": 18,
+    "jobTitle": "IT Support Specialist",
+    "companyName": "Dropbox",
+    "city": "San Francisco",
+    "skills": ["Windows", "MacOS", "Networking"],
+    "jobType": "Full-Time",
+    "jobDescription": "As an IT Support Specialist at Dropbox, you will work on providing technical support for employees by troubleshooting issues related to Windows, MacOS, and networking."
+  },
+  {
+    "id": 19,
+    "jobTitle": "Blockchain Developer",
+    "companyName": "Ripple",
+    "city": "San Francisco",
+    "skills": ["Solidity", "Blockchain", "Smart Contracts"],
+    "jobType": "Full-Time",
+    "jobDescription": "As a Blockchain Developer at Ripple, you will work on developing and maintaining blockchain-based solutions using Solidity, blockchain technology, and smart contracts."
+  },
+  {
+    "id": 20,
+    "jobTitle": "Virtual Reality Developer",
+    "companyName": "Oculus",
+    "city": "Menlo Park",
+    "skills": ["Unity", "C#", "Virtual Reality"],
+    "jobType": "Full-Time",
+    "jobDescription": "As a Virtual Reality Developer at Oculus, you will work on developing and maintaining virtual reality experiences using Unity, C#, and virtual reality technology."
+  }
+]
