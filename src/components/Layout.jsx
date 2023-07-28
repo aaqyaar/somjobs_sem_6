@@ -4,12 +4,12 @@ import { Outlet } from "react-router-dom";
 
 export function Layout() {
   return (
-    <>
+    <main className="flex flex-col justify-between h-screen">
       <Navbar />
-      <div className="container">
-        <Outlet />
-      </div>
+
+      <Outlet />
+
       <Footer />
-    </>
+    </main>
   );
 }

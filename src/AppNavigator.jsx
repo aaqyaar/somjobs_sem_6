@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { JobsPage, HomePage, LoginPage } from "./pages";
+import { JobsPage, HomePage, ContactPage, JobPage } from "./pages";
 import { Layout } from "./components";
 
 export default function AppNavigator() {
@@ -8,10 +8,10 @@ export default function AppNavigator() {
       <Route element={<Layout />}>
         <Route path="/" element={<HomePage />} />
         <Route path="/jobs" element={<JobsPage />} />
+        <Route path="/jobs/:slug" element={<JobPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Route>
       <Route path="*" element={<div>not found</div>} />
-
-      <Route path="/login" element={<LoginPage />} />
     </Routes>
   );
 }

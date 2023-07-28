@@ -5,7 +5,8 @@ export const Navbar = () => {
 
   const navigation = [
     { name: "Home", href: "/" },
-    { name: "Jobs", href: "/Jobs" },
+    { name: "Jobs", href: "/jobs" },
+    { name: "Contact", href: "/contact" },
   ];
 
   const active = navigation.findIndex((item) => item.href === pathname);
@@ -19,9 +20,11 @@ export const Navbar = () => {
     <header className="bg-secondary">
       <nav className="mx-auto container px-2 flex items-center justify-between py-4">
         <div className="flex items-center justify-between w-full">
-          <h1 className="text-xl font-bold text-white">
-            Somjobs<span className="text-blue-600">.com</span>
-          </h1>
+          <Link to={"/"}>
+            <h1 className="text-xl font-bold text-white">
+              Somjobs<span className="text-blue-600">.com</span>
+            </h1>
+          </Link>
           <div className="block">
             <ul className="flex space-x-4">
               {navigation.map((item) => (

@@ -2,7 +2,9 @@ import { FaWhatsapp, FaFacebook } from "react-icons/fa";
 
 export function Footer() {
   return (
-    <footer className="bg-secondary">
+    // bottom float
+    //
+    <footer className="bg-secondary  w-full fixed bottom-0">
       <div className="mx-auto container px-2 flex items-center justify-between py-4">
         <div className="flex items-center justify-between w-full">
           <h1 className="text-xl font-bold text-white">

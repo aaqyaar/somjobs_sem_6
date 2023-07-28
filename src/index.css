@@ -5,9 +5,20 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+html,
+body {
   box-sizing: border-box;
+  background-color: #151c24;
   font-family: "Mulish", sans-serif;
-  padding: 0;
+  height: 100%; /* Make sure the body covers the full height of the viewport */
   margin: 0;
+  padding: 0;
+}
+
+/* Apply this style to the footer to stick it to the bottom */
+footer {
+  /* position: fixed; */
+  /* width: 100%; */
+  /* left: 0; */
+  /* bottom: 0; */
 }

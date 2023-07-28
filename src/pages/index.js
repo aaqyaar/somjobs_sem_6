@@ -1,3 +1,4 @@
 export * from "./Home";
 export * from "./Jobs";
-export * from "./Login";
+export * from "./Job";
+export * from "./Contact";
