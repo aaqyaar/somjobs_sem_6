@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { useGlobalContext } from "../contexts/AppContext";
 import { HiArrowLeft, HiShieldCheck } from "react-icons/hi";
 import { BiSolidTime, BiMoney } from "react-icons/bi";
@@ -7,8 +7,8 @@ export function JobPage() {
   const { slug } = useParams();
   const { jobs } = useGlobalContext();
 
-  const job = jobs.find((job) => job.id === Number(slug));
-
+  const job = jobs.find((job) => job.id === slug);
+  const navigate = useNavigate();
   return (
     <div className="h-screen w-screen">
       <div className="px-2   pt-16 py-4">
@@ -16,7 +16,7 @@ export function JobPage() {
           <h1 className="inline-flex items-center gap-2 text-white">
             <HiArrowLeft
               className="text-white  text-2xl cursor-pointer"
-              onClick={() => window.history.back()}
+              onClick={() => navigate("/jobs")}
             />{" "}
             Back To <span className="text-gray-500">Jobs</span>
           </h1>
@@ -38,9 +38,8 @@ export function JobPage() {
               {job.description}
             </p>
             <p className="text-white  max-w-xl inline-flex items-center gap-2 text-lg font-thin mt-5">
-              <HiShieldCheck />
-              Skills needed{" "}
-              <span className="text-blue-400">{job.skills.join(" ")}</span>
+              <HiShieldCheck /> Skills needed
+              <span className="text-blue-400">{job.skills}</span>
             </p>
             <p className="text-white  max-w-xl inline-flex items-center gap-2 text-lg font-thin mt-2">
               <BiSolidTime />

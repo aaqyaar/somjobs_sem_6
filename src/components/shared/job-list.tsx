@@ -6,6 +6,7 @@ export default function JobsList(_props) {
   const { data, design } = _props;
   // design it becomes two either full or half
   const { title, companyName, city, skills, description, jobType, id } = data;
+
   return design === "full" ? (
     <div className="flex flex-col gap-4 mt-8 bg-secondary rounded-md p-4">
       <div className="flex flex-col gap-4">
